@@ -1,11 +1,22 @@
+About r-bigalgebra-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-bigalgebra-feedstock/blob/main/LICENSE.txt)
+
 About r-bigalgebra
-==================
+------------------
 
 Home: http://www.bigmemory.org
 
 Package license: LGPL-3.0-only
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-bigalgebra-feedstock/blob/main/LICENSE.txt)
+Summary: Provides arithmetic functions for R matrix and 'big.matrix' objects as well as functions for QR factorization, Cholesky factorization, General eigenvalue, and Singular value decomposition (SVD). A method matrix multiplication and an arithmetic method -for matrix addition, matrix difference- allows for mixed type operation -a matrix class object and a big.matrix class object- and pure type operation for two big.matrix class objects.
+About r-bigalgebra
+------------------
+
+Home: http://www.bigmemory.org
+
+Package license: LGPL-3.0-only
 
 Summary: Provides arithmetic functions for R matrix and 'big.matrix' objects as well as functions for QR factorization, Cholesky factorization, General eigenvalue, and Singular value decomposition (SVD). A method matrix multiplication and an arithmetic method -for matrix addition, matrix difference- allows for mixed type operation -a matrix class object and a big.matrix class object- and pure type operation for two big.matrix class objects.
 
@@ -27,13 +38,6 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_r_base4.1</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=11451&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-bigalgebra-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_r_base4.1" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_64_r_base4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=11451&branchName=main">
@@ -41,10 +45,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_r_base4.1</td>
+              <td>linux_64_r_base4.3</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=11451&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-bigalgebra-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-bigalgebra-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_r_base4.3" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -52,6 +56,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=11451&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-bigalgebra-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.2" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_r_base4.3</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=11451&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-bigalgebra-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.3" alt="variant">
                 </a>
               </td>
             </tr><tr>
