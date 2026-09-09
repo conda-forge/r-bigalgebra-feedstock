@@ -1,4 +1,4 @@
-{% set version = "3.1.0" %}
+{% set version = "3.1.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/bigalgebra_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/bigalgebra/bigalgebra_{{ version }}.tar.gz
-  sha256: 39c5460d917008b38b4f24438fc0f1a16e1a74417148b7aa0c311e2a37a78240
+  sha256: 3b57d4c64ce5ce1274c9296b7b199734fb931c1e3c79e003e30c138335ef9120
 
 build:
   number: 0
